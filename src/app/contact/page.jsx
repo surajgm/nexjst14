@@ -8,10 +8,10 @@ const HydrationTestNoSSR = dynamic(() => import("@/components/HydrationTest"), {
   ssr: false,
 });
 
-// export const metadata = {
-//   title: "Contact Page",
-//   description: "Contact description",
-// };
+export const metadata = {
+  title: "Contact Page",
+  description: "Contact description",
+};
 
 const ContactPage = () => {
   // const a = Math.random();
