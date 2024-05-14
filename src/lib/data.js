@@ -55,6 +55,7 @@ export const getUsers = async (id) => {
 };
 
 export const getUser = async (id) => {
+  // DISABLES THE CACHING  MECHANISM FOR THIS REQUEST'S RESPONSE
   noStore();
   try {
     connectToDb();
